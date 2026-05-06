@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Azure Web App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatriz | Cloud Portfolio</title>
+    <style>
+        body {
+            background-color: #f4f7f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            border-top: 8px solid #0078D4; /* Cor Oficial Azure */
+            max-width: 400px;
+        }
+        h1 { color: #333; margin-bottom: 0.5rem; }
+        p { color: #666; line-height: 1.6; }
+        .badge {
+            background: #0078D4;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        .footer { margin-top: 2rem; font-size: 0.7rem; color: #aaa; }
+    </style>
 </head>
-<body style="background-color: #0078D4; color: white; text-align: center; font-family: sans-serif; padding-top: 100px;">
-    <h1>Azure Web App + GitHub Actions</h1>
-    <p>Este site foi publicado automaticamente pelo GitHub!</p>
-    <p>Projeto de: <b>Beatriz</b></p>
+<body>
+    <div class="card">
+        <span class="badge">Cloud Engineer Student</span>
+        <h1>Beatriz</h1>
+        <p>Welcome to my first Automated Web App! <br> 
+           This project is hosted on <b>Azure App Service</b> and deployed via <b>GitHub Actions</b>.</p>
+        
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 1.5rem 0;">
+        
+        <p>🚀 Stack: HTML5 | Azure | CI/CD</p>
+        
+        <div class="footer">
+            Status: Online & Auto-deployed
+        </div>
+    </div>
 </body>
 </html>
